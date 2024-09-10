@@ -1169,6 +1169,32 @@
       },
       "property-type": "data-driven"
     },
+    "symbol-elevation": {
+      "type": "number",
+      "doc": "Manually specify the elevation value for a symbol, ignoring the terrain elevation.",
+      "sdk-support": {
+        "basic functionality": {
+          "js": "0.53.0",
+          "android": "7.4.0",
+          "ios": "4.11.0",
+          "macos": "0.14.0"
+        },
+        "data-driven styling": {
+          "js": "0.53.0",
+          "android": "7.4.0",
+          "ios": "4.11.0",
+          "macos": "0.14.0"
+        }
+      },
+      "expression": {
+        "interpolated": false,
+        "parameters": [
+          "zoom",
+          "feature"
+        ]
+      },
+      "property-type": "data-driven"
+    },
     "symbol-z-order": {
       "type": "enum",
       "values": {
